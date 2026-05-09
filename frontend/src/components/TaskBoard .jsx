@@ -17,8 +17,7 @@ import ClipLoader from "react-spinners/ClipLoader";
 axios.defaults.withCredentials = true;
 
 const API_URL =
-  import.meta.env.VITE_BACKEND_BASE_URL || "http://localhost:3000";
-
+  import.meta.env.VITE_BACKEND_BASE_URL || "https://mern-task-manager-production-6722.up.railway.app";
 const TaskDetailModal = ({ task, onClose }) => (
   <div className="fixed inset-0 bg-gray-600 bg-opacity-50 flex justify-center items-center">
     <div className="bg-white p-6 rounded-lg shadow-lg w-full max-w-md">
