@@ -4,8 +4,7 @@ import axios from "axios";
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 
 const baseURL =
-  import.meta.env.VITE_BACKEND_BASE_URL || "http://localhost:3000";
-
+  import.meta.env.VITE_BACKEND_BASE_URL || "https://mern-task-manager-z8ra.onrender.com";
 // Axios instance
 const api = axios.create({
   baseURL: `${baseURL}/api/v1`,
